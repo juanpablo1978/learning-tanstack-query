@@ -10,8 +10,9 @@ const Products = () => {
     isError,
     error,
   } = useQuery({
-    queryKey: ["products"],
+    queryKey: ["products"], //traemos los datos a traves de la funcion getPorducts (linea de abajo)
     queryFn: getProducts,
+    select: (products) => products.sort((a, b) => b.id - a.id), //ordenamos los datos , ver por que no funciona!!!!!
   });
 
   if (isLoading) return <p>Loading</p>;

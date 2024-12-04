@@ -1,32 +1,46 @@
 {
-    "products": [
-      {
-        "name": "Laptop",
-        "price": "1000",
-        "description": "Aque quisquam vero ipsam. Iusto, consequuntur",
-        "inStock": true,
-        "id": 1
-      },
-      {
-        "name": "PC",
-        "price": "2000",
-        "description": " Dolor sit amet consectetur adipisicing elit. Eius",
-        "inStock": true,
-        "id": 2
-      },
-      {
-        "name": "Headphones",
-        "price": "3599",
-        "description": " Lorem ipsum, num dolor sit amet consectetur adipisic",
-        "inStock": true,
-        "id": 3
-      },
-      {
-        "name": "Mobile",
-        "price": "1200",
-        "description": "Id expedita laudantium quas ut itaque  new",
-        "inStock": true,
-        "id": 4
-      }
-    ]
-  }
+  "products": [
+    {
+      "name": "Laptop",
+      "price": "1000",
+      "description": "Aque quisquam vero ipsam. Iusto, consequuntur",
+      "inStock": true,
+      "id": "1"
+    },
+    {
+      "name": "PC",
+      "price": "2000",
+      "description": " Dolor sit amet consectetur adipisicing elit. Eius",
+      "inStock": true,
+      "id": "2"
+    },
+    {
+      "name": "Headphones",
+      "price": "3599",
+      "description": " Lorem ipsum, num dolor sit amet consectetur adipisic",
+      "inStock": true,
+      "id": "3"
+    },
+    {
+      "name": "Mobile",
+      "price": "1200",
+      "description": "Id expedita laudantium quas ut itaque  new",
+      "inStock": true,
+      "id": "4"
+    },
+    {
+      "id": "9b1f",
+      "name": "mouse",
+      "description": "mouse gaming",
+      "price": "200",
+      "inStock": true
+    },
+    {
+      "id": "0b87",
+      "name": "macbook",
+      "description": "macbook pro",
+      "price": "1200",
+      "inStock": true
+    }
+  ]
+}
