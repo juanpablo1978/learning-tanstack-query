@@ -1,9 +1,9 @@
-import { useQuery } from "@tanstack/react-query";
-import { getProducts } from "../../api/productsAPI";
-
-//quede en min 27
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { getProducts, deleteProducts } from "../../api/productsAPI";
 
 const Products = () => {
+  const queryClient = useQueryClient();
+
   const {
     isLoading,
     data: products,
@@ -12,7 +12,13 @@ const Products = () => {
   } = useQuery({
     queryKey: ["products"], //traemos los datos a traves de la funcion getPorducts (linea de abajo)
     queryFn: getProducts,
-    select: (products) => products.sort((a, b) => b.id - a.id), //ordenamos los datos , ver por que no funciona!!!!!
+  });
+
+  const deleteProductsMutation = useMutation({
+    mutationFn: deleteProducts,
+    onSuccess: () => {
+      queryClient.invalidateQueries("products");
+    },
   });
 
   if (isLoading) return <p>Loading</p>;
@@ -24,7 +30,13 @@ const Products = () => {
       <p>{product.description}</p>
       <p>US$ {product.price}</p>
 
-      <button>Delete</button>
+      <button
+        onClick={() => {
+          deleteProductsMutation.mutate(product.id);
+        }}
+      >
+        Delete
+      </button>
       <input type="checkbox" />
       <label htmlFor="">In stock</label>
     </div>
