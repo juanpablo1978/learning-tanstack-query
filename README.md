@@ -8,4 +8,4 @@ listar, crear, eliminar y actualizar productos respectivamente.
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 [![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.63-007ACC?style=flat&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![TanStack Query](https://img.shields.io/badge/TanStack%20Query-4.x-blue?style=flat&logo=react&logoColor=white)](https://tanstack.com/query/latest)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.5-blue?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
