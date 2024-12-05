@@ -1,5 +1,6 @@
 import axios from "axios";
 
+
 const productsApi = axios.create({
     baseURL: 'http://localhost:3000/products'
 });
@@ -15,5 +16,8 @@ export const createProducts = (product)=> productsApi.post('/', product);
 
 //Funcion para eliminar productos (método delete)
 export const deleteProducts = id => productsApi.delete(`/${id}`);
+
+//Funcion para actualizar productos (metodo put)
+export const upDateProducts = (product) => productsApi.put(`/${product.id}`, product);
 
 

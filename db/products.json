@@ -20,6 +20,13 @@
       "description": "Id expedita laudantium quas ut itaque  new",
       "inStock": true,
       "id": "4"
+    },
+    {
+      "id": "4c11",
+      "name": "Smartphone",
+      "description": "Samsung x23",
+      "price": "800",
+      "inStock": true
     }
   ]
 }
