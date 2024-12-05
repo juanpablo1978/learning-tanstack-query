@@ -1,9 +1,11 @@
-# React + Vite
+# Learning Tanstack Query
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un CRUD que desarrollé con React + Vite para practicar TanStack Query . Utilizando los métodos GET, POST, DELTE Y PUT, 
+listar, crear, eliminar y actualizar productos respectivamente.
 
-Currently, two official plugins are available:
+## Construído con
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# learning-tanstack-query
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
+[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.63-007ACC?style=flat&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![TanStack Query](https://img.shields.io/badge/TanStack%20Query-4.x-blue?style=flat&logo=react&logoColor=white)](https://tanstack.com/query/latest)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.5-blue?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
