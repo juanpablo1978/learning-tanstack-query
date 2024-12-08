@@ -4,7 +4,7 @@ Este proyecto es un CRUD que desarrollé con React + Vite para practicar TanStac
 para listar, crear, eliminar y actualizar productos respectivamente.
 Por otro lado, utilicé json-server para crear un backend.
 
-## La aplicación se levanta con npm run dev y npm run back
+La aplicación se levanta con npm run dev y npm run back
 
 ## Construído con
 
